@@ -1,0 +1,382 @@
+{
+  "movie": [
+    {
+      "id": "1",
+      "name": "Jailer",
+      "path": "/assets/movies/jailer.jpg",
+      "genre": "Action/ Drama",
+      "rating": "7.8/10",
+      "language": "tamil",
+      "about": "Jailer is a Tamil movie starring Rajinikanth. It is an action drama directed and written by Nelson with music director Anirudh forming part of the crew.",
+      "cast": "Rajinikanth,Ramya Krishnan,Yogi Babu,Vasanth Ravi,Vinayakan",
+      "crew": "Nelson Dilipkumar,Anirudh Ravichander",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Indian 2",
+      "path": "/assets/movies/indian2.jpg",
+      "genre": "Action/ Drama/ Thriller",
+      "rating": "8.0/10",
+      "language": "tamil",
+      "about": "In this sequel to the 1996 film Indian, Kamal Hassan reprises his role as Senapathy, an ex-freedom fighter turned vigilante who fights against corruption. Senapathy returns to the country to aid a young man who has been exposing corrupt politicians in the country through videos on the internet.",
+      "cast": "Kamal Haasan,Siddharth,kajal Aggarwal,Vivek",
+      "crew": "Shankar,Subaskaran,Anirudh Ravichander",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "7",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "The Cinema",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Varisu",
+      "path": "/assets/movies/varisu.jpg",
+      "genre": "Action/ Drama",
+      "rating": "8.4/10",
+      "language": "tamil",
+      "about": "Varisu is a Tamil movie starring Vijay in a prominent role. It is a drama directed by Vamshi Paidipally and music by S. Thaman forming part of the crew.",
+      "cast": "Vijay,Rashmika Mandanna,Prakash Raj,Sarath Kumar",
+      "crew": "Vamshi,Dil Raju,S.Thaman",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Thunivu",
+      "path": "/assets/movies/thunivu.jpg",
+      "genre": "Action/ Adventure/ Thriller",
+      "rating": "8.4/10",
+      "language": "tamil",
+      "about": "Thunivu is a Tamil movie starring Ajith Kumar in a prominent role. It is directed by H. Vinoth forming part of the crew.",
+      "cast": "Ajith Kumar",
+      "crew": "Vinoth,Boney Kapoor",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Avatar: The Way of Water",
+      "path": "/assets/movies/avatar.jpg",
+      "genre": "Action /Adventure /Fantasy/ Sci-Fi",
+      "rating": "8.8/10",
+      "language": "English",
+      "about": "more than a decade after the events of the first film, this film begins to tell the story of the Sully family (Jake, Neytiri and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive and the tragedies they endure.",
+      "cast": "Sam Worthington,Zoe Saldana,Stephen Lang",
+      "crew": "James Cameron",
+      "theatres":[
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Thangalaan",
+      "path": "/assets/movies/thangalaan.jpg",
+      "genre": "Adventure /Drama/ Historical",
+      "rating": "8.6/10",
+      "language": "tamil",
+      "about": "Thangalaan is a Tamil movie starring Vikram, Malavika Mohanan, and Parvathy Thiruvothu in prominent roles. It is written and directed by Pa. Ranjith forming part of the crew.",
+      "cast": "Vikram,Malavika,Parvathy",
+      "crew": "Pa.Ranjith",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Cirkus",
+      "path": "/assets/movies/cirkus.jpg",
+      "genre": "Comedy/ Drama",
+      "rating": "5.1/10",
+      "language": "Hindi",
+      "about": "Two sets of identical twins are accidentally separated at birth. Several years later, when they are coincidentally in the same town, there is a lot of confusion and misunderstanding when people mistake them for each other.",
+      "cast": "Ranveer Singh,Pooja Hegde,Jacqueline Fernandez,Varun Sharma",
+      "crew": "Rohit Shetty,Bhushamn Kumar",
+      "theatres": [
+        {
+          "name": "KG Cinemas",
+          "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "9:30 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "5:00 pm"
+            },
+            {
+              "show": "8:00 pm"
+            }
+          ]
+        },
+        {
+        "name": "INOX",
+        "noOfRows" : "5",
+          "noOfColumns" : "10",
+          "shows": [
+            {
+              "show": "7:00 am"
+            },
+            {
+              "show": "10:00 am"
+            },
+            {
+              "show": "1:00 pm"
+            },
+            {
+              "show": "4:00 pm"
+            },
+            {
+              "show": "7:00 pm"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

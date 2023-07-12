@@ -1,0 +1,34 @@
+{{page-title "Booking"}}
+<BackButton @route="movies" @model={{this.model.name}}/>
+<HomeButton/>
+<Logout/>
+{{this.updatePoster this.model.path this.model.genre}}
+<div class="booking-container">
+    <Heading @name={{this.model.name }} @genre={{this.model.genre}} @path={{this.model.path}}/>
+    <div class="theatres-details">
+        <div class="theatres">
+            {{#each this.model.theatres as |theatres|}}
+            <div class="theatre">
+                <div class="theatre-name">
+                    {{theatres.name}}
+                </div>
+                <div class="show-timing">
+                    {{#each theatres.shows as |shows|}}
+                    {{!-- template-lint-disable no-inline-styles --}}
+                    <LinkTo @route="seating" style="text-decoration: none;" @query={{hash movieName=this.model.name
+                        theatreName=theatres.name show=shows.show row=theatres.noOfRows col=theatres.noOfColumns }}>
+                      <button type="button" class="button timing-button">
+                            {{shows.show}}
+                        </button>
+                    </LinkTo>
+                    {{/each}}
+                </div>
+
+
+            </div>
+            {{/each}}
+
+        </div>
+    </div>
+</div>
+{{outlet}}

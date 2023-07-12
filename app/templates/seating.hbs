@@ -1,0 +1,26 @@
+{{page-title "Seating"}}
+<BackButton @route="booking" @model={{this.movieName}}/>
+<HomeButton/>
+<Logout/>
+<div class="booking-container">
+    <Heading @name={{this.movieName}} @show={{this.show}} @genre={{this.movieGenre}} @path={{this.moviePath}} />
+    <div class="seating">
+        {{this.onLoad}}
+    </div>
+    {{this.updateSeats}}
+    <div class="pay">
+        <h2 id="amount">Amount:{{this.data.amount}}</h2>
+        {{#if this.toggleEnable}}
+        {{!-- template-lint-disable no-inline-styles --}}
+        <LinkTo style="text-decoration:none" @route="orders">
+            <button class="button" type="button" style="background-color:rgb(12, 97, 32);">
+                Pay
+            </button>
+        </LinkTo>
+        {{/if}}
+    </div>
+
+</div>
+
+
+{{outlet}}

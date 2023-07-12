@@ -1,0 +1,41 @@
+{{page-title "Movies"}}
+
+<div class="flex-container">
+    <LinkTo @route="home" >
+        <i class="fa fa-arrow-circle-left" ></i>
+    </LinkTo>
+    <HomeButton />
+    <Logout/>
+    <div class="flex-item-left">
+        <p class="text-background">{{this.model.name}}</p>
+        <div class="flex-content">
+            <h1 class="text-big">{{this.model.name}}</h1>
+            {{!-- template-lint-disable no-inline-styles --}}
+            <p1>Cast</p1>
+            <p>{{this.model.cast}}</p>
+            <p1>Crew</p1>
+            <p>{{this.model.crew}}</p>
+            <p1>Language</p1>
+            <p>{{this.model.language}}</p>
+            <p1>About</p1>
+            <p>{{this.model.about}}</p>
+            <br>
+
+            <LinkTo @route="booking" @model={{this.model.name}}>
+                <button class="button" type="button">
+                    Book Tickets
+                </button>
+            </LinkTo>
+        </div>
+
+    </div>
+
+    <div class="flex-item-right">
+        <div class="blur-container">
+            <img src={{this.model.path}} alt="background-poster">
+        </div>
+    </div>
+    <img class="movies-image" src={{this.model.path}} alt="poster" />
+
+</div>
+{{outlet}}

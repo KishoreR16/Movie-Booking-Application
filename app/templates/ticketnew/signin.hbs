@@ -1,0 +1,14 @@
+{{page-title "Signin"}}
+<div class="signin-page">
+    <h2>Enter Username<br><input type="text" id="username" placeholder="Enter Username" required></h2>
+    {{!-- template-lint-disable no-inline-styles --}}
+    {{!-- template-lint-disable no-action --}}
+    {{!-- template-lint-disable no-invalid-interactive --}}
+    <h2>Enter Password<br><input type="password" onpaste="return false;" ondrop="return false;" autocomplete="off" id="password" placeholder="Enter Password"><i class="far fa-eye"
+            id="togglePassword" onclick={{action "show1" }} style="cursor: pointer;" required></i></h2>
+            
+    <button type="button" {{on "click" this.signIn}}>Sign In</button>
+    <p id="signin-result"></p>
+    <br><br>
+</div>
+{{outlet}}

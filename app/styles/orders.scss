@@ -1,0 +1,31 @@
+.order-container {
+    display: grid;
+    grid-template-rows: 20% 60% 20%;
+    grid-template-columns: 20% 60% 20%;
+    height: 100vh;
+    width: 100vw;
+    overflow-wrap: normal;
+    background-image: linear-gradient(95.2deg, rgb(213, 213, 229) 26.8%, rgb(110, 110, 171) 64%);
+}
+
+.order-details {
+
+    grid-column: 2/3;
+    grid-row: 2/3;
+    grid-template-columns: 70% 30%;
+    border-radius: 25px;
+    padding: 10px;
+    box-shadow: 0 0 10px 0px rgb(61, 58, 83);
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+    color: black;
+
+    img {
+        grid-column: 1/2;
+        float: right;
+        margin-top: -18%;
+        margin-right: 5%;
+        height: 80%;
+    }
+}

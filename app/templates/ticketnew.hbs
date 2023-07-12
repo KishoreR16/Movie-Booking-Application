@@ -1,0 +1,17 @@
+{{page-title "Ticketnew"}}
+<header >
+        {{!-- template-lint-disable no-inline-styles --}}
+        <h1 style="text-align:center;">Ticket New</h1>
+</header>
+<div class="auth-container">
+        <div class="links">
+                {{!-- template-lint-disable no-inline-styles --}}
+                {{!-- template-lint-disable no-action --}}
+                <LinkTo id="link1" style="text-decoration:none;color:red;" onclick={{action "link1"}} @route="ticketnew.signin">Sign in</LinkTo>
+                {{!-- template-lint-disable no-inline-styles --}}
+                <LinkTo id="link2" style="text-decoration:none;color:red;" onclick={{action "link2"}} @route="ticketnew.signup">Sign up</LinkTo>
+        </div>
+        {{!-- template-lint-disable no-inline-styles --}}
+        <img style="visibility:visible" class="auth-image" src="/assets/auth.jpg" alt="authentication background">
+        {{outlet}}
+</div>

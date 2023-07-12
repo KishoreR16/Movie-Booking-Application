@@ -1,0 +1,116 @@
+
+body {
+
+  // background: url('/assets/home-bg.gif') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  // background-image: linear-gradient(to bottom right, rgb(31, 209, 249), rgb(182, 33, 254));
+
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to bottom right, #1FD1F9, #B621FE);  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-align:center;
+}
+
+
+.carousel-inner {
+  box-shadow: rgba(31, 209, 249, 0.3) 0px 19px 38px, rgba(182, 33, 254, 0.22) 0px 15px 12px;
+  border-width: 5px;
+  border-radius: 15px;
+
+}
+
+
+.leftcolumn {
+  box-shadow: #0e71c7 5px 5px 5px 1px;
+  border-radius: 50px;
+  // background-image: url('/assets/movie-bg.jpg');
+  // background-size: 725px 400px;
+  // background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom right, #1FD1F9, #B621FE);
+  margin: 10px 0px 10px 20px;
+  padding: 10px;
+  height: 400px;
+  width: 725px;
+  float: left;
+}
+
+.rightcolumn {
+  box-shadow: #0e71c7 5px 5px 5px 2px;
+  border-radius: 50px;
+  // background-image: url('/assets/movie-bg.jpg');
+  // background-size: 725px 400px;
+  // background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom right, #1FD1F9, #B621FE);
+
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+  height: 400px;
+  width: 725px;
+  display: inline;
+  position: relative;
+  float: right;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+
+
+.grid-details {
+  height:170%;
+  color: white;
+  font-family: 'Love Casual', sans-serif;
+  margin-left: 15%;
+  margin-top: 10%;
+  word-wrap: break-word;
+
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 25px;
+  }
+
+}
+
+
+
+
+
+.grid-image img {
+  margin-top: 8%;
+  margin-left: 5%;
+  width: 65%;
+  height: 325px;
+  border-style: solid;
+  border-color: #5CB3FF;
+  border-width: 5px;
+  border-radius: 50px;
+}
+
+.icon1 {
+  font-size: 58px;
+  color: hsl(208, 100%, 68%);
+  margin-top: -16%;
+}
+
+.icon2 {
+  font-size: 50px;
+  color: #ff4d4d;
+  margin-top: -102%;
+  margin-left: 60%;
+  transform: rotate(39deg);
+}

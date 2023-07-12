@@ -1,0 +1,134 @@
+.flex-container {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    color: white;
+    font-weight: bold;
+
+    i {
+        font-size: 40px;
+        color: red;
+        position: absolute;
+        margin-left: 1%;
+        margin-top: 1%;
+        z-index: 2;
+        border-radius: 50px;
+    }
+}
+
+.text-big {
+    font-family: 'Poppins', sans-serif;
+    font-size: 5.5em;
+    font-weight: 700;
+    line-height: 110px;
+    margin-left: -8px;
+
+}
+
+.text-background {
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    left: 72px;
+    bottom: -60px;
+    color: rgba(0, 0, 0, 0.1);
+    font-size: 170px;
+    z-index: 5;
+    position: absolute;
+    word-wrap: break-word;
+    width: 50%;
+    user-select: none;
+}
+
+.flex-item-left {
+    display: flex;
+    align-items: center;
+    width: 65%;
+    z-index: 1;
+    background-image: linear-gradient(to bottom right, #1FD1F9, #B621FE);
+}
+
+.flex-content {
+    margin-top: -20%;
+    margin-left: 80px;
+    width: 55%;
+    opacity: 1;
+    z-index: 6;
+
+    p1 {
+        color: black;
+        font-size: 16px;
+    }
+
+    p {
+        margin-bottom: 2%;
+        font-size: 16px;
+    }
+
+}
+
+.flex-item-right {
+    width: 35%;
+    height: 100vh;
+    // background: url('/assets/movies/indian2.jpg') no-repeat center center;
+    filter: blur(5px);
+}
+
+.blur-container {
+    img {
+        filter: blur(5px);
+        width: 100%;
+        height: 100vh;
+    }
+}
+
+.movies-image {
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 7%;
+    height: 70%;
+    width: 25%;
+    border: 5px solid #B621FE;
+    border-radius: 10%;
+    animation-name: example;
+    animation-duration: 1.5s;
+    z-index: 3;
+}
+
+@keyframes example {
+    from {
+        margin-left: 10%;
+        border: 5px solid #1FD1F9;
+        border-radius: 10%;
+    }
+
+    to {
+        margin-left: 50%;
+        border: 5px solid #B621FE;
+        border-radius: 10%;
+    }
+
+}
+
+.button {
+    text-decoration: none;
+    border: none;
+    padding: 12px 25px;
+    font-size: 16px;
+    background-color: rgb(184, 33, 33);
+    color: #fff;
+    border-radius: 25px;
+    box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s all;
+    z-index: 10;
+}
+
+/* Adding transformation when the button is active */
+
+.button:active {
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}

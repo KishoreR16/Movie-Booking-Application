@@ -1,0 +1,71 @@
+.auth-container{
+    text-align: center;
+    background-color: #f2f2f2;
+    height:100vh;
+    .links{
+        font-size:30px;
+        font-weight: bold;
+        text-align:center;
+    }
+    h2,p{
+        font-size:28px;
+        font-weight: bold;
+    }
+    i{
+        margin-left:-3%;
+    }
+    input[type=text], input[type=password] {
+        width: 25%;
+        font-size: 20px;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+     }
+     
+     input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+     }
+
+     input[type="text"]::placeholder,input[type="password"]::placeholder {
+        text-align: left;
+    }
+
+    button {
+        text-decoration: none;
+        border: none;
+        padding: 12px 25px;
+        font-size: 16px;
+        background-color: rgb(184, 33, 33);
+        color: #fff;
+        border-radius: 25px;
+        box-shadow: 7px 6px 28px 1px rgba(0, 0, 0, 0.24);
+        cursor: pointer;
+        outline: none;
+        transition: 0.2s all;
+        z-index: 10;
+    }
+    
+    /* Adding transformation when the button is active */
+    
+    button:active {
+        transform: scale(0.95);
+        /* Scaling button to 0.98 to its original size */
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+
+    .signin-page
+    {
+        margin-top: -35%;
+        background-color: #f2f2f2;
+    }
+    .signup-page
+    {
+        margin-top: -35%;
+        background-color: #f2f2f2;
+    }
+    
+}

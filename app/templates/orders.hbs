@@ -1,0 +1,18 @@
+{{page-title "Orders"}}
+<HomeButton/>
+<Logout/>
+<div class="order-container">
+    <div class="order-details">
+        {{!-- template-lint-disable no-obsolete-elements --}}
+        <center>Booking Details<br>
+       {{this.movieName}}<br>
+        {{this.genre}}<br>
+        </center>
+        Theatre:{{this.theatreName}}<br>
+        Show Timing:{{this.showTiming}}<br>
+        Seat No:{{this.seats}}<br>
+        Total Cost:{{this.amount}}<br>
+        <img src={{this.path}} alt="movie poster">
+    </div>
+</div>
+{{outlet}}
